@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+
+/* Ссылка */
+.header-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 37px;
+    font-family: 'Ubuntu';
+}
+
+
+
+/* Шапка */
+
+.header {
+    font-family: 'Ubuntu';
+    position: absolute;
+width: 1920px;
+height: 90px;
+left: 0px;
+top: 0px;
+
+background: #A71717;
+}
+
+
+.header-cell>a {
+    padding: 35px 30px 30px 0px;
+}
+
+
+/* Белый логотип */
+
+.logo {
+    position: absolute;
+    width: 300px;
+    height: 90px;
+}
+
+.car {
+    position: absolute;
+    width: 269px;
+    height: 37px;
+    left: 25px;
+    top: 25px;
+}
+
+ /* Новые Авто */
+.new {
+    position: absolute;
+    width: 139px;
+    height: 22px;
+    left: 378px;
+
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+}
+
+/* Авто с Пробегом */
+
+.mileage {
+    position: absolute;
+    width: 197px;
+    height: 28px;
+    left: 600px;
+
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+
+}
+
+/* ОЦЕНКА И ВЫКУП */
+.ransom {
+    position: absolute;
+    width: 195px;
+    height: 22px;
+    left: 880px;
+
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+/* АКЦИИ */
+.stocks {
+    position: absolute;
+    width: 84px;
+    height: 21px;
+    left: 1152px;
+
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+}
+
+/* НОВОСТИ */
+.news {
+    position: absolute;
+    width: 108px;
+    height: 25px;
+    left: 1319px;
+
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+}
+
+/* ЗАКАЗАТЬ ЗВОНОК */
+.call{
+    position: absolute;
+    width: 126px;
+    height: 17px;
+    left: 1570px;
+    top: 20px;
+    line-height: 5px;
+    
+    
+}
+
+.order{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 10px;
+
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.number {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 5px;
+        
+    color: #FFFFFF;
+    
+}
+
+
+/* ВХОД */
+
+.enter {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    left: 1812px;
+    height: 100%;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+    
+}

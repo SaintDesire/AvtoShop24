@@ -1,0 +1,339 @@
+@font-face {
+    font-family: 'Ubuntu-bold';
+    src: url(../Fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu-italic';
+    src: url(../Fonts/Ubuntu/Ubuntu-Italic.ttf);
+}
+
+
+.font1 {
+    position: absolute;
+    width: 224px;
+    height: 117px;
+    left: 373px;
+    top: 670px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #000000;
+    
+    
+}
+
+.font2 {
+    position: absolute;
+    width: 295px;
+    height: 46px;
+    left: 373px;
+    top: 820px;
+    
+    font-family: 'Ubuntu-italic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+
+.sedan {
+    position: absolute;
+    left: 742px;
+    top: 646px;
+}
+
+.crossover {
+    position: absolute;
+    left: 942px;
+    top: 646px;
+}
+
+.hatchback {
+    position: absolute;
+    left: 1142px;
+    top: 646px;
+}
+
+.universal {
+    position: absolute;
+    left: 1342px;
+    top: 646px;
+}
+
+.vned {
+    position: absolute;
+    left: 742px;
+    top: 846px;
+}
+
+.pickup {
+    position: absolute;
+    left: 942px;
+    top: 846px;
+}
+
+.microbus {
+    position: absolute;
+    left: 1142px;
+    top: 846px;
+}
+
+.fura {
+    position: absolute;
+    left: 1342px;
+    top: 846px;
+}
+
+.cars {
+    width: 200px;
+    transition: all .5s ease;
+}
+
+.cars:hover {
+    box-shadow: -5px 5px 5px rgb(163, 163, 163) ;
+    transition: all .5s ease;
+}
+
+.type11 {
+    position: absolute;
+    width: 160px;
+    height: 0px;
+    left: 1324px;
+    top: 593px;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.type1 {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 1335px;
+    top: 550px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.type2 {
+    position: absolute;
+    width: 79px;
+    height: 23px;
+    left: 1507px;
+    top: 550px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.type12 {
+    position: absolute;
+    width: 99px;
+    height: 0px;
+    left: 1497px;
+    top: 593px;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.barf {
+    cursor: pointer;
+}
+
+.catalog-button {
+    position: absolute;
+    width: 240px;
+    height: 51px;
+    left: 375px;
+    top: 910px;
+    
+    background: #A71717;
+    border-radius: 30px;
+}
+
+.catalog-text {
+    position: absolute;
+    width: 158px;
+    height: 20px;
+    left: 45px;
+
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.news-text1 {
+    position: absolute;
+    width: 139px;
+    height: 39px;
+    left: 373px;
+    top: 1211px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.news-text2 {
+    position: absolute;
+    width: 250px;
+    height: 23px;
+    left: 375px;
+    top: 1267px;
+    
+    font-family: 'Ubuntu-italic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.news-text:hover {
+    text-decoration: underline;
+}
+
+.news-link {
+    cursor: pointer;
+}
+
+.news-polo {
+    position: absolute;
+    width: 395px;
+    height: 264px;
+    left: 751px;
+    top: 1234px;
+}
+
+.news-polo-text {
+    position: absolute;
+    width: 409px;
+    height: 29px;
+    left: 751px;
+    top: 1500px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.news-chinim {
+    position: absolute;
+    width: 395px;
+    height: 264px;
+    left: 1167px;
+    top: 1234px;
+}
+
+.news-chinim-text {
+    position: absolute;
+    width: 409px;
+    height: 29px;
+    left: 1167px;
+    top: 1500px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.news-condition {
+    position: absolute;
+    width: 395px;
+    height: 264px;
+    left: 751px;
+    top: 1576px;
+}
+
+.news-condition-text {
+    position: absolute;
+    width: 409px;
+    height: 56px;
+    left: 751px;
+    top: 1842px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+.news-condition2 {
+    position: absolute;
+    width: 395px;
+    height: 264px;
+    left: 1167px;
+    top: 1576px;
+}
+
+.news-condition2-text {
+    position: absolute;
+    width: 409px;
+    height: 56px;
+    left: 1167px;
+    top: 1842px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}

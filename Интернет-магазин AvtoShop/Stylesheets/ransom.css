@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'Ubuntu-regular';
+    src: url(../Fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu-medium';
+    src: url(../Fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu-light';
+    src: url(../Fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+.content-caption1 {
+    position: absolute;
+    width: 320px;
+    height: 46px;
+    left: 805px;
+    top: 126px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.content-caption2 {
+    position: absolute;
+    height: 18px;
+    left: 700px;
+    top: 200px;
+    
+    font-family: 'Ubuntu-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+
+.image1 {
+    position: absolute;
+    left: 581px;
+    top: 376px;
+}
+
+.svg1 {
+    position: absolute;
+    width: 84px;
+    height: 95px;
+    left: 116px;
+    top: 328px;
+}
+
+.svg2 {
+    position: absolute;
+    width: 84px;
+    height: 95px;
+    left: 1373px;
+    top: 328px;
+}
+
+.svg3 {
+    position: absolute;
+    width: 84px;
+    height: 95px;
+    left: 116px;
+    top: 594px;
+}
+
+.svg4 {
+    position: absolute;
+    width: 84px;
+    height: 95px;
+    left: 1373px;
+    top: 594px;
+}
+
+.text1 {
+    position: absolute;
+    width: 330px;
+    height: 46px;
+    left: 212px;
+    top: 335px;
+    
+    font-family: 'Ubuntu-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.text2 {
+    position: absolute;
+    width: 379px;
+    height: 46px;
+    left: 1469px;
+    top: 330px;
+    
+    font-family: 'Ubuntu-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.text3 {
+    position: absolute;
+    width: 343px;
+    height: 46px;
+    left: 212px;
+    top: 600px;
+
+    font-family: 'Ubuntu-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.text4 {
+    position: absolute;
+    width: 317px;
+    height: 46px;
+    left: 1469px;
+    top: 600px;
+    
+    font-family: 'Ubuntu-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.input1 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 337px;
+    top: 824px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #C4C4C4;
+    font-size: large;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+.input2 {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 760px;
+    top: 824px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #C4C4C4;
+    font-size: large;
+    padding-left: 15px;
+}
+
+.input3 {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 1183px;
+    top: 824px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #C4C4C4;
+    font-size: large;
+    padding-left: 15px;
+}
+
+.button1 {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 760px;
+    top: 918px;
+    
+    background: rgba(167, 23, 23, 0.5);
+    border-radius: 15px;
+}
+
+.button1>a {
+    position: absolute;
+
+    padding: 18px 110px 18px 110px;
+    text-decoration: none;
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;   
+}
+
+.content-caption3 {
+    position: absolute;
+    width: 453px;
+    height: 46px;
+    left: 733px;
+    top: 1049px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #000000;
+}
+
+.content-option1 {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 302px;
+    top: 1169px;
+
+    border: 1px solid #C4C4C4;
+    border-radius: 32px;
+    box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.25);
+}
+
+.content-option1-header {
+    position: absolute;
+    left: 80px;
+
+
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #000000;
+}
+
+.option1-svg {
+    position: absolute;
+    top: 77px;
+    left: 137px;
+    width: 125px;
+    height: 125px;
+}
+
+.content-option1-text1 {
+    position: absolute;
+    left: 16px;
+    top: 230px;
+    
+    font-family: 'Ubuntu-medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.content-option1-text2 {
+    position: absolute;
+    width: 258px;
+    height: 34px;
+    top: 312px;
+    
+    font-family: 'Ubuntu-light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+
+    
+}
+
+.content-option1-text2>li {
+    margin-bottom: 10px;
+    color: #A71717;
+}
+
+.content-option1-text2>li>span {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.content-option2 {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 760px;
+    top: 1169px;
+
+    border: 1px solid #C4C4C4;
+    border-radius: 32px;
+    box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.25);
+}
+
+.content-option3 {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 1218px;
+    top: 1169px;
+    
+    border: 1px solid #C4C4C4;
+    border-radius: 32px;
+    box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.25);
+}
+
+.content-option2-header {
+    position: absolute;
+    left: 127px;
+
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #000000;
+}
+
+.content-option3-header {
+    position: absolute;
+    left: 64px;
+
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #000000;
+}

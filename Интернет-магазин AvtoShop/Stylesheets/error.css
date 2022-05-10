@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Ubuntu-bold';
+    src: url(../Fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+.error-text {
+    position: absolute;
+    width: 519px;
+    height: 82px;
+    left: 700px;
+    top: 460px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.main-button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 519px;
+    height: 95px;
+    left: 700px;
+    top: 588px;
+    
+    background: #A71717;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+}
+
+.button-text {
+    position: absolute;
+    left: 98px;
+}

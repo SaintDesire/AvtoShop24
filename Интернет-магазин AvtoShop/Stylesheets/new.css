@@ -1,0 +1,544 @@
+@font-face {
+    font-family: 'Ubuntu-regular';
+    src: url(../Fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+body {
+    width: 1920px;
+    height: 3569px;
+}
+
+.photo {
+    width: 397px;
+    height: 231px;
+}
+
+
+.slider {
+    position: absolute;
+    width: 1600px;
+
+    overflow: hidden;
+
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.photo {
+    width: 100%;
+    height: 231px;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 00%;
+    left: 25%;
+
+    display: flex;
+}
+
+.navigation6 {
+    position: absolute;
+    bottom: 00%;
+    left: 30%;
+
+    display: flex;
+}
+
+.navigation11 {
+    position: absolute;
+    bottom: 00%;
+    left: 40%;
+
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    cursor: pointer;
+    background-color: rgb(94, 94, 94);
+    opacity: .5;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: all .4s ease;
+}
+
+
+
+.bar:hover {
+    background-color: rgb(42, 42, 42);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.slide {
+    width: 25%;
+    transition: all .6s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#a1:checked ~ .a1,
+#b1:checked ~ .b1,
+#c1:checked ~ .c1,
+#d1:checked ~ .d1,
+#e1:checked ~ .e1,
+#f1:checked ~ .f1,
+#g1:checked ~ .g1,
+#h1:checked ~ .h1,
+#i1:checked ~ .i1,
+#j1:checked ~ .j1,
+#k1:checked ~ .k1,
+#l1:checked ~ .l1,
+#m1:checked ~ .m1,
+#n1:checked ~ .n1,
+#o1:checked ~ .o1 {
+    margin-left: 0;
+}
+
+#a2:checked ~ .a1,
+#b2:checked ~ .b1,
+#c2:checked ~ .c1,
+#d2:checked ~ .d1,
+#e2:checked ~ .e1,
+#f2:checked ~ .f1,
+#g2:checked ~ .g1,
+#h2:checked ~ .h1,
+#i2:checked ~ .i1,
+#j2:checked ~ .j1,
+#k2:checked ~ .k1,
+#l2:checked ~ .l1,
+#m2:checked ~ .m1,
+#n2:checked ~ .n1,
+#o2:checked ~ .o1 {
+    margin-left: -25%;
+}
+
+#a3:checked ~ .a1,
+#b3:checked ~ .b1,
+#c3:checked ~ .c1,
+#d3:checked ~ .d1,
+#e3:checked ~ .e1,
+#f3:checked ~ .f1,
+#g3:checked ~ .g1,
+#h3:checked ~ .h1,
+#i3:checked ~ .i1,
+#j3:checked ~ .j1,
+#k3:checked ~ .k1,
+#l3:checked ~ .l1,
+#m3:checked ~ .m1,
+#n3:checked ~ .n1,
+#o3:checked ~ .o1 {
+    margin-left: -50%;
+}
+
+#a4:checked ~ .a1,
+#b4:checked ~ .b1,
+#c4:checked ~ .c1,
+#d4:checked ~ .d1,
+#e4:checked ~ .e1,
+#f4:checked ~ .f1,
+#g4:checked ~ .g1,
+#h4:checked ~ .h1,
+#i4:checked ~ .i1,
+#j4:checked ~ .j1,
+#k4:checked ~ .k1,
+#l4:checked ~ .l1,
+#m4:checked ~ .m1,
+#n4:checked ~ .n1,
+#o4:checked ~ .o1 {
+    margin-left: -75%;
+}
+
+
+.menu {
+    position: absolute;
+    width: 450px;
+    height: 2910px;
+    left: 0px;
+    top: 90px;
+    
+    background: #E9E7E7;
+    border-right: 5px solid rgb(63, 63, 63);
+}
+
+
+
+.st {
+    font-family: 'Ubuntu-regular';
+    font-size: 20px;
+}
+
+ #go1, .nav-second1  {
+    display: none;
+} 
+
+#go1:checked ~ .nav-marka>ul>ul {
+   display: block;
+} 
+
+
+.nav-second1 {
+    list-style-type: none;
+    font-family: 'Ubuntu-light';
+}
+
+.nav-second1>li {
+    display: flex;
+    padding: 0;
+    margin: 25px 25px 25px 0px;
+}
+
+.nav-second1>li>label {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.nav-marka {
+    position: absolute;
+    top: 45px;
+}
+
+.arrow-bottom {
+    position: absolute;
+    width: 20px;
+}
+
+.arrow1 {
+    left: 394px;
+    top: 17px;
+}
+
+
+#go2, .nav-second2  {
+    display: none;
+    transition: 0.5s all ease;
+} 
+
+#go2:checked ~ .nav-cuzov>ul>ul {
+   display: block;
+    transition: 0.5s all ease;
+} 
+
+.nav-second2 {
+    list-style-type: none;
+    font-family: 'Ubuntu-light';
+}
+
+.nav-second2>li {
+    display: flex;
+    padding: 0;
+    margin: 25px 25px 25px 0px;
+}
+
+.nav-second2>li>label {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.nav-cuzov {
+    position: absolute;
+    top: 100px;
+}
+
+#go1:checked ~ .nav-cuzov {
+    top: 500px;
+}
+
+.nav-second {
+    margin-left: 0;
+    padding: 5px;
+}
+
+.nav-first>ul {
+    margin-left: 0;
+}
+
+.nav-color {
+    position: absolute;
+    top: 150px;
+}
+
+
+/* Меню машин */
+
+.models {
+    position: absolute;
+    width: 292px;
+    height: 41px;
+    left: 502px;
+    top: 133px;
+    
+    font-family: 'Ubuntu-regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    
+    color: #000000;
+    
+}
+
+.cell {
+    background: #FFFFFF;
+    border: 3px solid #404040;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.first-first {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 579px;
+    top: 234px;
+    
+}
+
+.second-first {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1043px;
+    top: 234px;
+
+}
+
+.third-first {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1496px;
+    top: 234px;
+
+}
+
+.first-second {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 579px;
+    top: 777px;
+    
+}
+
+.second-second {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1043px;
+    top: 777px;
+
+}
+
+.third-second {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1496px;
+    top: 777px;
+
+}
+
+.first-third {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 579px;
+    top: 1320px;
+    
+}
+
+.second-third {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1043px;
+    top: 1320px;
+
+}
+
+.third-third {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1496px;
+    top: 1320px;
+
+}
+
+.first-fourth {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 579px;
+    top: 1863px;
+    
+}
+
+.second-fourth {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1043px;
+    top: 1863px;
+
+}
+
+.third-fourth {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1496px;
+    top: 1863px;
+
+}
+
+.first-fifth {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 579px;
+    top: 2406px;
+    
+}
+
+.second-fifth {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1043px;
+    top: 2406px;
+
+}
+
+.third-fifth {
+    position: absolute;
+    width: 400px;
+    height: 514.29px;
+    left: 1496px;
+    top: 2406px;
+
+}
+
+.new-slider {
+    position: absolute;
+    width: 397px;
+    height: 231px;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+}
+
+
+.car-name {
+    position: absolute;
+    width: 280px;
+    height: 38.86px;
+    left: 0;
+    top: 190px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #000000;
+}
+
+.car-color {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    
+    border: 0px solid #000000;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.car-color1 {
+    left: 0;
+    top: 275px;
+    background: #D1D1D1;
+}
+
+.car-color2 {
+    left: 45px;
+    top: 275px;
+    background: #ff0000;
+}
+
+.car-color3 {
+    left: 90px;
+    top: 275px;
+    background: #0011ff;
+}
+
+.car-color4 {
+    left: 135px;
+    top: 275px;
+    background: #592500;
+}
+
+.car-color5 {
+    left: 180px;
+    top: 275px;
+    background: #000000;
+}
+
+.car-price {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    top: 300px;
+    
+    font-family: 'Ubuntu-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #000000;
+}
+
+.catalog-button {
+    position: absolute;
+    width: 342.86px;
+    height: 57.14px;
+    top: 390px;
+    
+    background: #848484;
+    border-radius: 20px;
+}
+
+.not-available {
+    position: absolute;
+    width: 199px;
+    height: 26px;
+    top: -3px;
+    left: 80px;
+    
+    font-family: 'Ubuntu-regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+}
