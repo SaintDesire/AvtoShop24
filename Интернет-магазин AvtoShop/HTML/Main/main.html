@@ -12,11 +12,20 @@
         </style>
 
         <link href="../../Stylesheets/header.css" rel="stylesheet" type="text/css">
-        <link href="../../Stylesheets/slider.css" rel="stylesheet" type="text/css">
         <link href="../../Stylesheets/main.css" rel="stylesheet" type="text/css">
         <link href="../../Stylesheets/footer.css" rel="stylesheet" type="text/css">
         <link href="../../Images/logo/favicon.png" rel="icon" type="image/png" sizes="512x512">
-        
+        <link href="../../Stylesheets/slider-js.css" rel="stylesheet" type="text/css">
+        <script defer src="../../JS/slider-js.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              // инициализация слайдера
+              var slider = new SimpleAdaptiveSlider('.slider', {
+                autoplay: true,
+                interval: 10000,
+              });
+            });
+          </script>
     </head>
 
     <body>
@@ -56,32 +65,19 @@
 
 
         <div class="content">
-        <div class="slider">
 
-            <div class="slides">
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <input type="radio" name="r" id="r4">
-
-                <div class="slide s1"><a href="../error1/error1.html"><img class="photo" src="../../Images/slider/Volkswagen.jpg">  </a></div>
-                <div class="slide s2"><a href="../error1/error1.html"><img class="photo" src="../../Images/slider/condition.jpg">   </a></div>
-                <div class="slide s3"><a href="../error1/error1.html"><img class="photo" src="../../Images/slider/chinim.jpg">      </a></div>
-                <div class="slide s4"><a href="../error1/error1.html"><img class="photo" src="../../Images/slider/vozdux.jpg">      </a></div>
-
-            
-            </div>
-
-
-            <div class="navigation">
-
-                <label for="r1" class="bar bar1"></label>
-                <label for="r2" class="bar bar2"></label>
-                <label for="r3" class="bar bar3"></label>
-                <label for="r4" class="bar bar4"></label>
-            </div>
-
+            <div class="slider">
+                <div class="slider-line">
+                    <a href="../error1/error1.html"><img src="../../Images/slider/Volkswagen.jpg"></a>
+                    <a href="../error1/error1.html"><img src="../../Images/slider/chinim.jpg"></a>
+                    <a href="../error1/error1.html"><img src="../../Images/slider/condition.jpg"></a>
+                    <a href="../error1/error1.html"><img src="../../Images/slider/vozdux.jpg"></a>
+                </div>
+                <div class="div-prev"><img height="46px" class="prev" src="../../Images/slider/arrow-left.svg"></div>
+                <div class="div-next"><img height="46px" class="next" src="../../Images/slider/arrow-right.svg"></div>
+    
         </div>
+
 
 
         <div class="catalog">
