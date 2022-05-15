@@ -1,21 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="../../Stylesheets/header-test.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="header-cell"><a href="../Main/main.html"> <img src="../../Images/logo/logo_white.png" class="car"></a></div>
-            <div class="header-cell"><a href="../New/new.html" class="link">НОВЫЕ АВТО</a></div>
-            <div class="header-cell"><a href="../Mileage/mileage.html" class="link">АВТО С ПРОБЕГОМ</a></div>
-            <div class="header-cell"><a href="../Ransom/ransom.html" class="link">ОЦЕНКА И ВЫКУП</a></div>
-            <div class="header-cell"><a href="../Stocks/stocks.html" class="link">АКЦИИ</a></div>
-            <div class="header-cell"><a href="../News/news.html" class="link">НОВОСТИ</a></div>
-            <div class="header-cell call">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width ">
+    <title>Header-test</title>
 
-                <a href="#" class="order">+375 44 511 80 81 Заказать звонок</a>
-            </div>
-            <div class="header-cell"><a href="#" class="link">Войти</a></div>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        main {
+            flex: 1 0 auto;
+        }   
+        footer {
+            flex: 0 0 auto;
+        }
+
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+
+    <link href="../../Images/logo/favicon.png" rel="icon" type="image/png" sizes="512x512">
+    <link href="../../Stylesheets/main.css" rel="stylesheet" type="text/css">
+    <link href="../../Stylesheets/slider-js.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../Stylesheets/header-test.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="logo">
+            <a href="#"><img class="graphic-logo" src="../../Images/logo/logo_png.png" alt="Logo"></a>
         </div>
-    </body>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="">HOME</a>
+                <a href="">NEW CARS</a>
+                <a href="">USED CARS</a>
+                <a href="">RANSOM</a>
+                <a href="">STOCKS</a>
+                <a href="">REQUEST A CALL</a>
+                <a href="">SIGN IN</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="slider">
+            <div class="slider-line">
+                <a href="../error1/error1.html"><img src="../../Images/slider/Volkswagen.jpg"></a>
+                <a href="../error1/error1.html"><img src="../../Images/slider/chinim.jpg"></a>
+                <a href="../error1/error1.html"><img src="../../Images/slider/condition.jpg"></a>
+                <a href="../error1/error1.html"><img src="../../Images/slider/vozdux.jpg"></a>
+            </div>
+            <div class="div-prev"><img height="46px" class="prev" src="../../Images/slider/arrow-left.svg"></div>
+            <div class="div-next"><img height="46px" class="next" src="../../Images/slider/arrow-right.svg"></div>
+        </div>
+
+        <div class="catalog">
+            <div class="catalog-text">
+                <h1>Каталог автомобилей в наличии</h1>
+                <p class="catalog-text2">Продажа новых и проверенных автомобилей с пробегом.</p>
+                <a href="../New/new.html"><p class="catalog-button">Перейти в каталог</p></a>
+            </div>
+            <div class="catalog-buttons">
+                <a href="../New/new.html"><img height="220px" class="cars"       src="../../Images/cars/sedan.png"></a>
+                <a href="../New/new.html"><img height="220px" class="cars"   src="../../Images/cars/crossover.png"></a>
+                <a href="../New/new.html"><img height="220px" class="cars"   src="../../Images/cars/hatchback.png"></a>
+                <a href="../New/new.html"><img height="220px" class="cars"   src="../../Images/cars/universal.png"></a>
+                <a href="../New/new.html"><img height="220px" class="cars"        src="../../Images/cars/vned.png"></a>
+                <a href="../New/new.html"><img height="220px" class="cars"      src="../../Images/cars/pickup.png"></a>
+                <a href="../New/new.html"><img height="220px" class="cars"    src="../../Images/cars/microbus.png"></a>
+                <a href="../New/new.html"><img height="220px" class="cars"        src="../../Images/cars/fura.png"></a>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer>
+        <nav class="nav2">
+                <a href="">HOME</a>
+                <a href="">NEW CARS</a>
+                <a href="">USED CARS</a>
+                <a href="">RANSOM</a>
+                <a href="">STOCKS</a>
+                <a href="">REQUEST A CALL</a>
+                <a href="">SIGN IN</a>
+        </nav>
+        <div class="logo">
+            <a href=""><img class="graphic-logo" src="../../Images/logo/logo_png.png" alt="Logo"></a>
+        </div>
+        <div class="social">
+            <a href="#"><img src="../../Images/footer/em.png" alt=""></a>
+            <a href="#"><img src="../../Images/footer/face.png" alt=""></a>
+            <a href="#"><img src="../../Images/footer/goo.png" alt=""></a>
+            <a href="#"><img src="../../Images/footer/inst.png" alt=""></a>
+            <a href="#"><img src="../../Images/footer/pint.png" alt=""></a>
+        </div>
+        <p>Nikita Korshun, 2022</p>
+    </footer>
+
+
+    </div>
+
+    <script src="../../JS/header-test.js"></script>
+    <script defer src="../../JS/slider-js.js"></script>
+</body>
 </html>

@@ -1,19 +1,14 @@
-body {
-  margin: 0;
-}
-
 .slider {
   position: relative;
-  
   max-width: 70%;
-  margin: 7% auto;
+  margin: 2% auto;
   overflow: hidden;
   user-select: none;
 }
 
 .slider-line {
   display: flex;
-  background-color: orange;
+  background-color: rgb(255, 255, 255);
   transition: all ease 1s;
 }
 
