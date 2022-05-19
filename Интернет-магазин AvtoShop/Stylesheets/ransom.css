@@ -82,7 +82,7 @@ main h3 {
     padding-left: 5px;
 }
 
-#send {
+.submit {
     display: block;
     font-family: 'Roboto Condensed';
     font-size: 15px;
@@ -99,13 +99,17 @@ main h3 {
     transition: all ease 0.5s;
 }
 
-#send:hover {
+.submit:hover {
     -webkit-transition: all ease 0.5s;
     -o-transition: all ease 0.5s;
     transition: all ease 0.5s;
     background-color: #fff;
     border: 2px solid #000;
     color: #000;
+}
+
+.submit.responsive {
+    opacity: .5;
 }
 
 .button {

@@ -42,16 +42,12 @@
                 <h3>Здесь вы можете легко и выгодно продать свой автомобиль</h3>
 
                     <img class="image1" src="../../Images/ransom/P0AHOdwqgQ.jpg">
-                    <form>
                        <div class="car-option">
-                       <input class="input1" required type="text" placeholder="Марка">
-                       <input class="input2" required type="text" placeholder="Модель">
-                       <input class="input3" required type="number" placeholder="Год выпуска">
+                       <input name="mark" class="input1" required type="text" placeholder="Марка">
+                       <input name="model" class="input2" required type="text" placeholder="Модель">
+                       <input name="year" class="input3" required type="number" placeholder="Год выпуска">
                        </div>
-                       <form method="LINK" action="../done1/done1.html">
-                           <input id="send" onclick="location.href='../done1/done1.html'" type="submit" value="Отправить заявку">
-                       </form>
-                    </form>
+                       <button onclick="done()" name="submit" class="submit" disabled>Отправить заявку</button>
                 
 
                 <h2>3 программы продажи</h2>

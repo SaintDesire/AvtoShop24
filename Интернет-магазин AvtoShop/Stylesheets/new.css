@@ -132,7 +132,7 @@ main h1 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
-    padding-left: 30px;
+    padding-left: 5px;
 }
 
 .car-button {
