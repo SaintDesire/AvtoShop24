@@ -11,7 +11,7 @@ main {
     main {
         max-width: 400px;
     }
-    #email, #password {
+    #number, #date {
         width: 300px;
     }
 }
@@ -37,6 +37,9 @@ main {
 .request h1 {
     text-align: center;
 }
+.request h3 {
+    padding-left: 15px;
+}
 
 form h3 {
     text-align: center;
@@ -47,8 +50,7 @@ form h3 {
     margin: 10px;
 }
 
-#email, #password {
-    padding: 0 5px;
+#number, #date {
     width: 350px;
     height: 35px;
     border: 2px solid rgba(75, 75, 75, 0.35);
@@ -57,8 +59,8 @@ form h3 {
 }
 
 .submit {
-    margin: 15px auto;
     background: #000;
+    margin: 15px auto;
     border-radius: 7px;
     border: 2px solid #fff;
     -webkit-transition: all ease 0.5s;
@@ -84,36 +86,8 @@ form h3 {
     opacity: .5;
 }
 
+
 form a {
     width: 300px;
     margin: 0 auto;
-}
-
-
-#back-to-main {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
-    height: 35px;
-}
-#back-to-main-button {
-    width: 300px;
-    background: #000;
-    border-radius: 10px;
-    border: 2px solid #fff;
-    -webkit-transition: all ease 0.5s;
-    -o-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    color: #fff;
-    height: 35px;
-    font-size: 25px;
-    font-family: 'Roboto Condensed';
-}
-#back-to-main-button:hover {
-    background: #fff;
-    border: 2px solid #000;
-    color: #000;
-}
-#done {
-    text-align: center;
 }

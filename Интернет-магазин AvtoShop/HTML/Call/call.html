@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Войти в аккаунт</title>
+    <title>Заказать звонок</title>
 
     <link href="../../Stylesheets/limiter.css" rel="stylesheet" type="text/css">
-    <link href="../../Stylesheets/login.css" rel="stylesheet">
+    <link href="../../Stylesheets/call.css" rel="stylesheet">
     <link href="../../Images/logo/favicon.png" rel="icon" type="image/png" sizes="512x512">
     <link rel="stylesheet" href="../../Stylesheets/header-test.css" >
     <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
@@ -35,9 +35,13 @@
 
         <main>
 
-            <h1 id="done">Произошла ошибка,<br> попробуйте позже</h1>
-            <a id="back-to-main" href="../Main/index.html"><input id="back-to-main-button" type="button" value="Главная страница"></a>
-
+            <div class="request">
+                <h1>Заказать звонок</h1>
+                    <input name="phone" id="number" type="number" required placeholder="Номер телефона (обязательное поле)">
+                    <h3>Удобное время для звонка</h3>
+                    <input id="date" type="time" placeholder="Удобное время для звонка">
+                    <button onclick="done()" name="submit" class="submit" disabled>Отправить заявку</button>
+            </div>
 
         </main>
 
@@ -64,5 +68,6 @@
     </div>
 
     <script src="../../JS/header-test.js"></script>
+    <script src="../../JS/call.js"></script>
 </body>
 </html>

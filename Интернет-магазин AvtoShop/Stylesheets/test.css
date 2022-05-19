@@ -1,0 +1,75 @@
+a { 
+    text-decoration: none;
+    color: #000;
+}
+
+.functions {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+#fmenu {
+    width: 200px;
+}
+
+.functions-menu {
+    color: #fff;
+    background: #000;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.options {
+    display: none;
+    margin-top: 15px;
+}
+
+.options.responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.options a {
+    border: 1px solid rgba(75, 75, 75, 0.5);
+    border-radius: 2px;
+    margin-top: 0;
+    padding-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.marka p {
+    margin-top: 0;
+    padding: 15px 5px 0px;
+}
+
+.year p {
+    margin-top: 0;
+    padding: 15px 5px 0px;
+}
+
+.arrow-down, .arrow-up {
+    opacity: .5;
+}
+
+.arrow-down1.invisible, .arrow-down2.invisible {
+    -webkit-transform: rotate(180deg) translateY(-15px);
+        -ms-transform: rotate(180deg) translateY(-15px);
+            transform: rotate(180deg) translateY(-15px);
+}

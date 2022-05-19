@@ -1,53 +1,143 @@
 /* Слайдер */
 
 .slider {
-    position: relative;
-    max-width: 70%;
-    margin: 2% auto;
-    overflow: hidden;
-    user-select: none;
-  }
-  
-  .slider-line {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    transition: all ease 1s;
-  }
-  
-  
-  .prev, .next {
-    opacity: .5;
-    transition: all ease 1s;
-  }
-  
-  .prev:hover, .next:hover {
-    opacity: 1;
-    transition: all ease 1s;
-  }
-  
-  .div-prev {
-    display: block;
-    position: absolute;
-    top: 42%;
-    left: 1%;
-  }
-  
-  .div-next {
-    display: block;
-    display: block;
-    position: absolute;
-    top: 42%;
-    right: 1%;
-  }
-  
+  position: absolute;
+  max-width: 100%;
+  margin: 2% auto;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
 
+.slider.dissapear {
+  display: none;
+}
+
+.slider-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+
+.prev, .next {
+  display: block;
+  color: #000;
+  position: absolute;
+  top: 35%;
+  opacity: .5;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.prev {
+    left: 2%;
+}
+
+.next {
+    left: 95%;
+}
+
+.prev:hover, .next:hover {
+  opacity: 1;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
 
 /* Каталог */
 
 
-.catalog {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: 0 1 auto;
+main {
+  max-width: 1024px;
+  margin: 0 auto 50px;
 }
 
+.catalog {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  text-align: center;
+}
+
+.catalog-button {
+  background: #000;
+  width: 30%;
+  height: 30px;
+  padding: 5px;
+  margin: 25px auto;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+  .catalog-button:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+
+.cars {
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.cars:hover {
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  -webkit-box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.344);
+          box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.344);
+}
+
+@media (max-width: 1024px)
+{
+  main {
+    max-width: 768px;
+    }
+    .block-next {
+      margin-left: 96%;
+    }
+    .prev, .next {
+      height: 30px;
+      top: 38%;
+    }
+}
+
+
+
+@media (max-width: 768px)
+{
+  .catalog-button{
+    width: 50%;
+  }
+  .slider {
+    display: none;
+
+  }
+  main {
+  max-width: 400px;
+  }
+  .block-next {
+    margin-left: 92%;
+  }
+  .prev, .next {
+    height: 50px;
+    top: 28%;
+  }
+}

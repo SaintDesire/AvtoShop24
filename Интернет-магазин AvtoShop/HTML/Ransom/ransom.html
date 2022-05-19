@@ -2,106 +2,65 @@
 <html>
     <head>
         <title>Срочный выкуп авто с пробегом</title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+
 
         <style>
-            body {
-                height: 3194px;
-            }
-
-            .footer {
-                position: absolute;
-                width: 1920px;
-                height: 556px;
-                left: 0px;
-                top: 2500px;
-
-                background: #A71717;
-
-            }
         </style>
 
-        <link href="../../Stylesheets/header.css" rel="stylesheet" type="text/css">
-        <link href="../../Stylesheets/footer.css" rel="stylesheet" type="text/css">
-        <link href="../../Stylesheets/ransom.css" rel="stylesheet" type="text/css">
-        <link href="../../Images/logo/favicon.png" rel="icon" type="image/png" sizes="512x512">
+    <link href="../../Stylesheets/limiter.css" rel="stylesheet" type="text/css">
+    <link href="../../Stylesheets/ransom.css" rel="stylesheet" type="text/css">
+    <link href="../../Images/logo/favicon.png" rel="icon" type="image/png" sizes="512x512">
+    <link rel="stylesheet" href="../../Stylesheets/header-test.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
         
     </head>
 
     <body>
         <div class="wrapper">
-        <div class="header">
-    
-            <div class="logo header-cell">
-                <a href="../Main/main.html"> <img src="../../Images/logo/logo_white.png" class="car"></a>
-            </div>
-
-            <div class="new header-cell">
-                <a href="../New/new.html" class="header-link">НОВЫЕ АВТО</a>
-            </div>
-
-            <div class="mileage header-cell">
-                <a href="../Mileage/mileage.html" class="header-link">АВТО С ПРОБЕГОМ</a>
-            </div>
-
-            <div class="ransom header-cell">
-                <a href="../Ransom/ransom.html" class="header-link">ОЦЕНКА И ВЫКУП</a>
-            </div>
-
-            <div class="stocks header-cell">
-                <a href="../Stocks/stocks.html" class="header-link">АКЦИИ</a>
-            </div>
-
-
-            <div class="call">
-                <p class="number">+375 44 511 80 81</p>
-                <a href="../error2/error2.html" class="order">Заказать звонок</a>
-            </div>
-
-            <div class="enter">
-                <a href="../Login/login.html" class="header-link">Войти</a>
-            </div>
-            </div>
-            
-            <svg>
-                <symbol viewBox="0 0 42 42" id="check">
-                    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Atlm_Saleauto_Landing" transform="translate(-119.000000, -209.000000)"><g id="Trade-in" transform="translate(120.000000, 100.000000)"><g id="Group-22" transform="translate(0.000000, 48.909788)"><g id="1" transform="translate(0.000000, 61.090212)"><g id="Group-10"><path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40" id="Rectangle-2-Copy-3" stroke="#0061ED"></path><path d="M0,0 C11.045695,0 20,8.954305 20,20 C20,31.045695 11.045695,40 0,40" id="Rectangle-2-Copy-4" stroke="#EBECF0" transform="translate(10.000000, 20.000000) scale(-1, 1) translate(-10.000000, -20.000000) "></path></g><g id="checked-5" transform="translate(11.000000, 13.000000)" fill="#000000" fill-rule="nonzero"><polygon id="Path" points="0 8.13808451 6.84887772 15 20 1.86194135 18.1119413 0 6.84887772 11.2499321 1.86191219 6.26303117"></polygon></g></g></g></g></g></g>
-                </symbol>
-            </svg>
-
-            <div class="content">
-                <p class="content-caption1">Оценка и выкуп</p>
-                <p class="content-caption2">Здесь вы можете легко и выгодно продать свой автомобиль</p>
-
-                <div class="content-image">
-                    <img class="image1" src="../../Images/ransom/P0AHOdwqgQ.jpg">
-                    <svg class="svg1"><use xlink:href="#check"></use></svg>
-                    <svg class="svg2"><use xlink:href="#check"></use></svg>
-                    <svg class="svg3"><use xlink:href="#check"></use></svg>
-                    <svg class="svg4"><use xlink:href="#check"></use></svg>
-                    <p class="text1">Оцените свой автомобиль онлайн прямо на сайте</p>
-                    <p class="text2">Обменяйте свой автомобиль на другой с дополнительной выгодой</p>
-                    <p class="text3">Приезжайте на осмотр по удобному адресу</p>
-                    <p class="text4">Получайте деньги за автомобиль максимально быстро</p>
+            <header>
+                <div class="logo">
+                    <a href="#"><img class="graphic-logo" src="../../Images/logo/logo_png.png" alt="Logo"></a>
                 </div>
-
-                <div class="car-option">
-                    <input class="input1" type="text" placeholder="Марка">
-                    <input class="input2" type="text" placeholder="Модель">
-                    <input class="input3" type="number" placeholder="Год выпуска">
-
-                    <div class="button1">
-                    <a href="../done1/done1.html">Отправить заявку</a>
+                <nav>
+                    <div class="topnav" id="myTopnav">
+                        <a href="../Main/index.html">HOME</a>
+                        <a href="../New/new.html">NEW CARS</a>
+                        <a href="../Ransom/ransom.html">RANSOM</a>
+                        <a href="../Call/call.html">REQUEST A CALL</a>
+                        <a href="../Login/login.html">SIGN IN</a>
+                        <a id="menu" href="#" class="icon">&#9776;</a>
                     </div>
-                </div>
+                </nav>
+            </header>
 
-                <p class="content-caption3">3 программы продажи</p>
+            <main>
+                <h1 style="text-align: center;">Оценка и выкуп</h1>
+                <h3>Здесь вы можете легко и выгодно продать свой автомобиль</h3>
+
+                    <img class="image1" src="../../Images/ransom/P0AHOdwqgQ.jpg">
+                    <form>
+                       <div class="car-option">
+                       <input class="input1" required type="text" placeholder="Марка">
+                       <input class="input2" required type="text" placeholder="Модель">
+                       <input class="input3" required type="number" placeholder="Год выпуска">
+                       </div>
+                       <form method="LINK" action="../done1/done1.html">
+                           <input id="send" onclick="location.href='../done1/done1.html'" type="submit" value="Отправить заявку">
+                       </form>
+                    </form>
+                
+
+                <h2>3 программы продажи</h2>
 
                 <div class="content-options">
                     <div class="content-option1">
-                        <p class="content-option1-header">Быстрый выкуп</p>
+                        <h3 class="content-option1-header">Быстрый выкуп</h3>
 
-                        <img class="option1-svg" src="../../Images/ransom/UNNP4S8Qij.svg">
+                        <img class="option-svg" src="../../Images/ransom/UNNP4S8Qij.svg">
 
                         <p class="content-option1-text1">Купим любой автомобиль за 24 часа с момента обращения</p>
                         <ul class="content-option1-text2">
@@ -112,9 +71,9 @@
                     </div>
 
                     <div class="content-option2">
-                        <p class="content-option2-header">Комиссия</p>
+                        <h3 class="content-option2-header">Комиссия</h3>
 
-                        <img class="option1-svg" src="../../Images/ransom/SLgzJu5tKc.svg">
+                        <img class="option-svg" src="../../Images/ransom/SLgzJu5tKc.svg">
 
                         <p class="content-option1-text1">Продадим автомобиль по вашей цене</p>
                         <ul class="content-option1-text2">
@@ -127,9 +86,9 @@
                     </div>
 
                     <div class="content-option3">
-                        <p class="content-option3-header">Trade-in/Trade-up</p>
+                        <h3 class="content-option3-header">Trade-in/Trade-up</h3>
 
-                        <img class="option1-svg" src="../../Images/ransom/Iyzug55cdU.svg">
+                        <img class="option-svg" src="../../Images/ransom/Iyzug55cdU.svg">
 
                         <p class="content-option1-text1">Решим задачи продажи и покупки автомобиля за один визит</p>
                         <ul class="content-option1-text2">
@@ -140,78 +99,33 @@
                     </div>
                 </div>
 
-            </div>
+            </main>
         
 
     
-        <div class="footer"  style="top: 2000px;">
-            <p class="avtoshop-bottom">© AvtoShop 2022 - 2022</p>
-
-            <p class="footer-tags auto-avto">Автомобили</p>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Volkswagen"> Volkswagen  </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Ford">       Ford        </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Kia">        Kia         </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Mazda">      Mazda       </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Land-Rover"> Land Rover  </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Jaguar">     Jaguar      </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Toyota">     Toyota      </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Lexus">      Lexus       </p></a>
-            <a href="../New/new.html"><p class="footer-auto footer-text auto-Geely">      Geely       </p></a>
-
-            <p class="footer-tags dillers">Дилеры</p>
-            <p class="footer-text footer-none">Отсутствуют</p>
-
-            <p class="footer-tags holding">Холдинг</p>
-            <a href="../error1/error1.html"><p class="footer-text footer-holding holding-app">         Мобильное приложение            </p></a>
-            <a href="../error1/error1.html"><p class="footer-text footer-holding holding-profile">     Личный кабинет                  </p></a>
-            <a href="../error1/error1.html"><p class="footer-text footer-holding holding-bonus">       Бонусная программа              </p></a>
-            <a href="../error1/error1.html"><p class="footer-text footer-holding holding-reviews">     Книга отзывов                   </p></a>
-            <a href="../error1/error1.html"><p class="footer-text footer-holding holding-agreement">   Пользовательское соглашение     </p></a>
-            <a href="../error1/error1.html"><p class="footer-text footer-holding holding-garant">      Гарантии                        </p></a>
-
-            <p class="footer-tags connection">Связаться с нами</p>
-            <p class="footer-text connection-number">                   +375 44 511 80 81            </p>
-            <a href="../error1/error1.html"><p class="footer-text connection-link connection-mail">         online@avtoshop.by           </p></a>
-            <a href="../error1/error1.html"><p class="footer-text connection-link connection-order">        Заказать звонок              </p></a>
-            
-            <div class="footer-vector"> </div>
-
-            <p class="footer-register">Общество с ограниченной ответственностью «AvtoShop», зарегистрировано 
-                10.05.2022 Минским облисполкомом в ЕГР за №690670985
-                223053, Республика Беларусь, Минская область, Минский район, Боровлянский сельсовет, район деревни Боровая, дом 2, офисное помещение № 11, 3-й этаж, УНП 690670985
-                Интернет-магазин www.avtoshop.by зарегистрирован в Торговом реестре Республики Беларусь 10.05.2022 года за № 481470
-                Режим работы интернет-магазина www.avtoshop.by: с 08.00 до 08.30 ежедневно 
-                Доставка и оплата
-                Личный кабинет клиента Холдинга
-                Контакты для связи по вопросам обращения покупателей о нарушении их прав:
-                Тел.: +375 44 511 80 81
-                Электронная почта: online@avtoshop.by
-                Номера контактных телефонов работников местных исполнительных и распорядительных органов:
-                Отдел торговли и услуг Минского райисполкома:
-                
-                 +375 44 511 80 81, +375 44 511 80 81, +375 44 511 80 81.</p>
-        
-
-                 <a href="#"><img class="footer-appstore" src="../../Images/footer/appstore.svg">                       </a>
-                 <a href="#"><img class="footer-icons footer-facebook" src="../../Images/footer/facebook.svg">          </a>
-                 <a href="#"><img class="footer-google-play" src="../../Images/footer/google play.svg">                 </a>
-                 <a href="#"><img class="footer-icons footer-instagram" src="../../Images/footer/instagram.svg">        </a>
-                 <a href="#"><img class="footer-icons footer-odnoklasniki" src="../../Images/footer/odnoklasniki.svg">  </a>
-                 <a href="#"><img class="footer-icons footer-twitter" src="../../Images/footer/twitter.svg">            </a>
-                 <a href="#"><img class="footer-icons footer-vkontakte" src="../../Images/footer/vkontakte.svg">        </a>
-                 <a href="#"><img class="footer-icons footer-youtube" src="../../Images/footer/youtube.svg">            </a>
-           
-                 <img class="footer-belcard2" src="../../Images/footer/belcard2.svg">  
-                 <img class="footer-belcard" src="../../Images/footer/belcard.svg">  
-                 <img class="footer-mastercard" src="../../Images/footer/mastercard.svg">
-                 <img class="footer-mastercard2" src="../../Images/footer/mastercard2.svg">
-                 <img class="footer-mtb" src="../../Images/footer/mtb.svg">
-                 <img class="footer-visa" src="../../Images/footer/visa.svg">
-                 <img class="footer-visa2" src="../../Images/footer/visa2.svg">
-                 <img class="footer-webpay" src="../../Images/footer/webpay.svg">
-                 
-        </div>
+            <footer>
+                <nav class="nav2">
+                    <a href="../Main/index.html">HOME</a>
+                    <a href="../New/new.html">NEW CARS</a>
+                    <a href="../Ransom/ransom.html">RANSOM</a>
+                    <a href="../Call/call.html">REQUEST A CALL</a>
+                    <a href="../Login/login.html">SIGN IN</a>
+                </nav>
+                <div class="logo">
+                    <a href="../Main/index.html"><img class="graphic-logo" src="../../Images/logo/logo_png.png" alt="Logo"></a>
+                </div>
+                <div class="social">
+                    <a target="_blank" href="https://gmail.com"><img src="../../Images/footer/em.png" alt=""></a>
+                    <a target="_blank" href="https://facebook.com"><img src="../../Images/footer/face.png" alt=""></a>
+                    <a target="_blank" href="https://google.com"><img src="../../Images/footer/goo.png" alt=""></a>
+                    <a target="_blank" href="https://instagram.com"><img src="../../Images/footer/inst.png" alt=""></a>
+                    <a target="_blank" href="https://pinterest.com"><img src="../../Images/footer/pint.png" alt=""></a>
+                </div>
+                <a  target="_blank"  href="https://vk.com/nkorshun2021">Nikita Korshun, 2022</a>
+            </footer>
 
         </div>
+        <script src="../../JS/ransom.js"></script>
+        <script src="../../JS/header-test.js"></script>
     </body>
 </html>
